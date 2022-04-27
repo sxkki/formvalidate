@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html">
+<head>
+<!-- creditos a la pagina: https://desarrolloweb.com/articulos/1767.php#:~:text=Las%20validaciones%20se%20hacen%20en,correctos%20se%20env%C3%ADa%20el%20formulario. -->
+    <meta charset="UTF-8">
+    <title>VALIDATION</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <form name="fvalida">
+        <table class="validacion">
+            <tr>
+                <td>Nombre: </td>
+                <td><input type="text" name="nombre" size="30" maxlength="100"></td>
+            </tr>
+            <tr>
+                <td>Edad: </td>
+                <td><input type="text" name="edad" size="3" maxlength="2"></td>
+            </tr>
+            <tr>
+                <td>Correo: </td>
+                <td><input type="text" name="correo" size="25" maxlength="100"></td>
+            </tr>
+            <tr>
+                <td>Interés:</td>
+                <td>
+                    <select name="interes">
+                        <option value="Elegir">Elegir</option>
+                        <option value="Comercial">Contacto comercial</option>
+                        <option value="Clientees">Atención al cliente</option>
+                        <option value="Proveedores">Contacto de proveedores</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center"><input type="button" value="Enviar" onclick="valida_envia()"></td>
+            </tr>
+            <tr>
+                <td colspan="4" id="creditos">By LMMR</td>
+            </tr>
+        </table>
+    </form>
+    <script src="app.js"></script>
+</body>
+</html>

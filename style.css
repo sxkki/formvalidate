@@ -1,0 +1,17 @@
+.validacion{
+    display: block;
+    margin:0 auto;
+    padding:20px;
+    background-color: #2980b9;
+    width: 425px;
+    height: 200px;
+    border-radius: 25px;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+#creditos{
+    display: block;
+    padding-top: 20px;
+    color: #fff;
+    text-align: center;
+}
